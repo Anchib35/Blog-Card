@@ -44,8 +44,8 @@ body {
 }
 .container{
   background: linear-gradient(to bottom, #F9FAFB ,#D2D6DB);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -144,13 +144,13 @@ span{
 
 @media (min-width: 768px){
   .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (min-width: 1440px){
   .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 }
