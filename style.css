@@ -1,0 +1,157 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.image img{
+  height: 288px;
+  width: 340px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.image{
+  height: 288px;
+  width: 340px;
+}
+.container{
+  background: linear-gradient(to bottom, #F9FAFB ,#D2D6DB);
+  height: 812px;
+  width: 375px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.card{
+  width: 340px;
+  height: 504px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+}
+.interior{
+  width: 67px;
+  height: 24px;
+  background-color: #F0FDF4;
+  padding: 2px 8px;
+  border-radius: 10007px;
+  color: #15803D;
+  border-color: #bbf7d0;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  font-size: 14px;
+  font-family: noto sans;
+  margin-bottom: 8px;
+}
+
+.description{
+  background-color: #ffff;
+  width: 340px;
+  height: 216px;
+  padding: 24px 16px;
+  border-radius: 0 0 8px 8px;
+}
+
+.heading{
+  width: 308px;
+  height: 28px;
+  font-weight: lighter;
+  font-family: noto sans;
+  margin: 0;
+  
+}
+h3{
+  font-size: 18px;
+  margin: 0 0 12px 0;
+}
+
+.paragraph{
+  width: 308px;
+  height: 48px;
+font-size: 16px;
+color: #525252;
+font-family: noto sans;
+margin-bottom: 24px;
+display: flex;
+align-items: center;
+}
+
+.paragraph p{
+  margin-top: 12px;
+  margin-bottom: 0;
+  
+}
+
+button{
+  all: unset;
+  font-family: noto sans;
+  display: flex;
+  align-items: center;
+  width: 114px;
+  height: 24px;
+  color: indigo;
+  margin-top: 24px;
+}
+span{
+  padding: 0 2px;
+  font-size: 16px;
+}
+
+.arrow{
+  width: 13.33px;
+  height: 12.96px;
+}
+
+.right{
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+}
+
+@media (min-width: 768px){
+  .container{
+    width: 768px;
+    height: 1024px;
+  }
+}
+@media (min-width: 1440px){
+  .container{
+    width: 1440px;
+    height: 768px;
+  }
+}
