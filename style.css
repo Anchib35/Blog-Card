@@ -57,7 +57,6 @@ body {
 .card{
   width: 340px;
   height: 504px;
-  background-color: pink;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
