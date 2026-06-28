@@ -52,6 +52,7 @@ body {
   align-items: center;
   padding-top: 120px;
   padding-bottom: 120px;
+  min-height: 100vh;
 }
 
 .card{
